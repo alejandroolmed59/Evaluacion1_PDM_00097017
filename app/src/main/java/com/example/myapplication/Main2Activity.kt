@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 
 class Main2Activity : AppCompatActivity() {
@@ -44,7 +45,6 @@ class Main2Activity : AppCompatActivity() {
         nombre=intent.getStringExtra("NAME")
         email=intent.getStringExtra("EMAIL")
         total=intent.getStringExtra("CONTADOR")
-       // var array= intent.getParcelableArrayListExtra<Int>("ARRAY")
 
         mTVNombre.text= nombre
         mTVEmail.text=email
@@ -56,6 +56,14 @@ class Main2Activity : AppCompatActivity() {
     }
 
     private fun setearFacturaProductos() {
-        mProducto1.text
+        mProducto1.text=intent.getStringExtra("1")
+        mProducto2.text=intent.getStringExtra("2")
+        mProducto3.text=intent.getStringExtra("3")
+        mProducto4.text=intent.getStringExtra("4")
+        mProducto5.text=intent.getStringExtra("5")
+        mProducto6.text=intent.getStringExtra("6")
+        mProducto7.text=intent.getStringExtra("7")
+        mProducto8.text=intent.getStringExtra("8")
+        mProducto9.text=intent.getStringExtra("9")
     }
 }

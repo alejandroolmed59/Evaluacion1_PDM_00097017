@@ -8,8 +8,15 @@
               android:orientation="vertical"
               android:layout_margin="10dp">
 
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Nombre:"
+    />
     <TextView
             android:id="@+id/usuario_2nd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="Email:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -24,8 +31,7 @@
     <TextView
             android:id="@+id/totalProductos_2nd"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Total de Productos"/>
+            android:layout_height="wrap_content"/>
 
 
 
