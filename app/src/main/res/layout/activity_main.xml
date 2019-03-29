@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+              android:layout_margin="10dp">
+
+
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="3"
+            android:layout_gravity="center_horizontal">
+
+
+        <TextView
+                android:id="@+id/Producto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:text="0"
+                android:layout_margin="33dp"
+
+        />
+        <TextView
+                android:id="@+id/Producto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:text="0"
+                android:layout_margin="33dp"/>
+        <TextView
+                android:id="@+id/Producto9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="2"
+                android:text="0"
+                android:layout_margin="33dp"/>
+
+
+    </GridLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario"/>
+    <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escriba el usuario aqui"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo Electronico"/>
+    <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escriba el correo electronico aqui"/>
+    <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
